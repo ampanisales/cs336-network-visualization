@@ -2,4 +2,4 @@
 
 - Example usage: python macvisual.py pcap_file
 
-- testpcap is a pcap file that can be used to test this program
+- "testpcap" is a pcap file that can be used to test this program.
