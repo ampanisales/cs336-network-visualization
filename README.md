@@ -4,3 +4,5 @@
 - Example usage: python macvisual.py pcap_file
 
 - "testpcap" is a pcap file that can be used to test this program.
+
+- To get a good view of a specific MAC address on the graph, it may be necessary to zoom into its node if there are many nodes present on the graph.
