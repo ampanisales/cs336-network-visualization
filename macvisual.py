@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 
 """ macvisual.py
 
@@ -38,7 +38,7 @@ def main():
 	DG = nx.DiGraph()
 
 	for ts, pkt in pcap:
-	    eth=dpkt.ethernet.Ethernet(pkt)
+	    eth = dpkt.ethernet.Ethernet(pkt)
 	    srcMac = ':'.join('%02x' % compat_ord(b) for b in eth.src)
 	    dstMac = ':'.join('%02x' % compat_ord(b) for b in eth.dst)
 	    DG.add_edge(srcMac, dstMac)
