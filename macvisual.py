@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+A#!/usr/bin/env python
 
 """ macvisual.py
 
@@ -32,7 +32,7 @@ def main():
 	try:
 		pcap = dpkt.pcap.Reader(open(sys.argv[1],'rb'))
 	except (IOError, IndexError, ValueError):
-		print("Error: Pcap file could not be read")
+		print("Error: A pcap file could not be read")
 		sys.exit()
 
 	DG = nx.DiGraph()
